@@ -1,0 +1,7 @@
+{
+  "platformName": "Android",
+  "automationName": "uiautomator2",
+  "deviceName": "Samsung SM -G601F",
+  "app": "/Users/shivanandmishra/Documents/PythonLearning/AppiumSeleniumLearning/app/DemoApp.apk",
+  "udid": "72e8d03f"
+}
