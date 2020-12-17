@@ -5,7 +5,8 @@
 """
 import logging
 
-logging.basicConfig(format='%(asctime)s: %(levelname)s: %(message)s', datefmt='%d/%m/%y %I:%M:%S %p %A' , level=logging.DEBUG ,filename="test2.log",filemode="a")
+logging.basicConfig(format='%(asctime)s: %(levelname)s: %(message)s', datefmt='%d/%m/%y %I:%M:%S %p %A' ,
+                    level=logging.DEBUG ,filename="test2.log",filemode="a")
 logging.critical("This is critical msg")
 logging.error("This is a error msg")
 logging.warning("this is warning msg")
